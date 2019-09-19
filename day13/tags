@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COLOR_BLACK	console.h	5;"	d
+COLOR_BLUE	console.h	7;"	d
+COLOR_CYAN	console.h	10;"	d
+COLOR_GREEN	console.h	6;"	d
+COLOR_MAGENTA	console.h	11;"	d
+COLOR_RED	console.h	4;"	d
+COLOR_WHITE	console.h	9;"	d
+COLOR_YELLOW	console.h	8;"	d
+LRC	fun.h	/^}LRC;$/;"	t	typeref:struct:lrc
+_CONSOLE_H_	console.h	2;"	d
+__START_MPLAYER_H__	start_mplayer.h	2;"	d
+cc	makefile	/^cc=gcc$/;"	m
+clear_screen	console.c	/^void clear_screen(void)$/;"	f	signature:(void)
+clear_screen	console.h	/^extern void clear_screen(void);\/\/清屏$/;"	p	signature:(void)
+cusor_get_pos	console.c	/^void cusor_get_pos(void)$/;"	f	signature:(void)
+cusor_get_pos	console.h	/^extern void cusor_get_pos(void);\/\/保存光标位置$/;"	p	signature:(void)
+cusor_hide	console.c	/^void cusor_hide(void)$/;"	f	signature:(void)
+cusor_hide	console.h	/^extern void cusor_hide(void);$/;"	p	signature:(void)
+cusor_moveto	console.c	/^void cusor_moveto(int x, int y)$/;"	f	signature:(int x, int y)
+cusor_moveto	console.h	/^extern void cusor_moveto(int x, int y);\/\/光标跳转到 y行 x列$/;"	p	signature:(int x, int y)
+cusor_set_pos	console.c	/^void cusor_set_pos(void)$/;"	f	signature:(void)
+cusor_set_pos	console.h	/^extern void cusor_set_pos(void);\/\/恢复光标位置$/;"	p	signature:(void)
+insert_link	fun.c	/^LRC *insert_link(LRC *head, LRC tmp)$/;"	f	signature:(LRC *head, LRC tmp)
+insert_link	fun.h	/^extern LRC* insert_link(LRC *head, LRC tmp);$/;"	p	signature:(LRC *head, LRC tmp)
+lrc	fun.h	/^typedef struct lrc$/;"	s
+lrc::next	fun.h	/^    struct lrc *next;$/;"	m	struct:lrc	typeref:struct:lrc::lrc	access:public
+lrc::stc	fun.h	/^    char stc[256];  \/\/歌词$/;"	m	struct:lrc	access:public
+lrc::time	fun.h	/^    int time;  \/\/秒数$/;"	m	struct:lrc	access:public
+lrc_clk	fun.c	/^void lrc_clk(LRC *head, char **lrc_c)$/;"	f	signature:(LRC *head, char **lrc_c)
+lrc_clk	fun.h	/^extern void lrc_clk(LRC *head,char** lrc_c);/;"	p	signature:(LRC *head,char** lrc_c)
+lrc_cut	fun.c	/^void lrc_cut(char **lrc_c, char *lrc_r)$/;"	f	signature:(char **lrc_c, char *lrc_r)
+lrc_cut	fun.h	/^extern void lrc_cut(char **lrc_c, char *lrc_r);$/;"	p	signature:(char **lrc_c, char *lrc_r)
+lrc_spt	fun.c	/^LRC *lrc_spt(char **lrc_c, LRC *head, int *row)$/;"	f	signature:(char **lrc_c, LRC *head, int *row)
+lrc_spt	fun.h	/^extern LRC *lrc_spt(char **lrc_c, LRC *head,int *row);$/;"	p	signature:(char **lrc_c, LRC *head,int *row)
+main	main.c	/^int main(int argc, char const *argv[])$/;"	f	signature:(int argc, char const *argv[])
+mplay_play	fun.h	/^extern void mplay_play(char* name);$/;"	p	signature:(char* name)
+mplayer_play	start_mplayer.c	/^void mplayer_play(char * song_path)$/;"	f	signature:(char * song_path)
+mplayer_play	start_mplayer.h	/^extern void mplayer_play(char * song_path);$/;"	p	signature:(char * song_path)
+next	fun.h	/^    struct lrc *next;$/;"	m	struct:lrc	typeref:struct:lrc::lrc	access:public
+obj	makefile	/^obj=main.o fun.o start_mplayer.o console.o$/;"	m
+print_link	fun.c	/^void print_link(const LRC *head)$/;"	f	signature:(const LRC *head)
+print_link	fun.h	/^extern void print_link(const LRC *head);$/;"	p	signature:(const LRC *head)
+read_lrc	fun.c	/^char *read_lrc(void)$/;"	f	signature:(void)
+read_lrc	fun.h	/^extern char* read_lrc(void);$/;"	p	signature:(void)
+set_bg_color	console.c	/^void set_bg_color(int color)$/;"	f	signature:(int color)
+set_bg_color	console.h	/^extern void set_bg_color(int color);\/\/设置字体背景色$/;"	p	signature:(int color)
+set_fg_color	console.c	/^void set_fg_color(int color)$/;"	f	signature:(int color)
+set_fg_color	console.h	/^extern void set_fg_color(int color);\/\/设置字体前景色$/;"	p	signature:(int color)
+stc	fun.h	/^    char stc[256];  \/\/歌词$/;"	m	struct:lrc	access:public
+target	makefile	/^target=demo$/;"	m
+time	fun.h	/^    int time;  \/\/秒数$/;"	m	struct:lrc	access:public
